@@ -1,0 +1,166 @@
+.home-container {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  color: #FFD700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #FFD700;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #FFF9F0;
+  margin-bottom: 30px;
+}
+
+.book-button {
+  background: #FFD700;
+  color: #450000;
+  padding: 15px 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-button:hover {
+  background: #b8860b;
+}
+
+/* Rooms Section */
+.rooms-section {
+  padding: 80px 20px;
+  background-color: #8B0000;
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #FFD700;
+}
+
+.rooms-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.room-card {
+  background: #450000;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 300px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.room-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.4rem;
+  color: #FFD700;
+}
+
+.room-card p {
+  padding: 0 15px 20px;
+  color: #E0E0E0;
+}
+
+/* Amenities Section */
+.amenities-section {
+  background: #6D0000;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.amenities-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Attractions Section */
+.attractions-section {
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.attractions-section .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.explore-button {
+  background: #FFD700;
+  color: #450000;
+  border: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.explore-button:hover {
+  background: #b8860b;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 20px;
+  background-color: #450000;
+  color: #E0E0E0;
+  text-align: center;
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
